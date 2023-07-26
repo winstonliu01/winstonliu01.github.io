@@ -26,7 +26,7 @@
 		<ul class="links">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="experience.html">Experience</a></li>
-			<li><a href="cornell.html">Cornell</a></li>
+			<li><a href="education.html">Education</a></li>
 		</ul>
 	</nav>
 
@@ -37,40 +37,32 @@
 		<section class="wrapper">
 			<div class="inner">
 				<header class="align-center">
-					<h1>Experience</h1>
-					<h2><strong>Here is what I have been working on.</strong></h2>
+					<h1>Professional Experience</h1>
+					<h2><strong>Internship Experiences during UGrad</strong></h2>
 				</header>
 
 				<div class="flex flex-2">
 					<div class="col col2">
 						<h2>Salesforce</h2>
 						<h4>
-							In the summer of 2022, I interned at Salesforce's Government Cloud as a Site Reliability Engineer and was
-							based out of the Boston Metro Area. My main project was to develop a tool that could help automate
-							monitoring during periods of increased traffic. I decided to build a SlackBot in Python that scraped our
-							internal Monitoring Clouds to parse data and send updates to engineers at scheduled intervals as well as
-							critical levels. This project required me to use JSON and a shell script - both which were interesting to
-							learn. Additionally, prior to building this automated tool, I was able to take ownership of alerting
-							stakeholders during a state election which would have more users on the system than usual. I also
-							partnered with Service Owners to go through Work Items in order to prepare their runbooks for the audits.
-							Doing so allowed me to leverage my experience as a PM last summer by ensuring that I was communicating
-							clearly the requirements as well as alerting the correct people to escalate issues. Lastly, since my team
-							is responsible for management access for certain environments, there are tickets that have been in the
-							queue for a while. So, I was able to design a workflow process and began to write a parser from the API
-							call which would use Slack to alert the proper party to take action based on the ticket data.
-
-							<br><br>
-
-							On a more informal note, living in Boston was an amazing experience. My team as well as the rest of the
-							Futureforce interns really made it a summer to remember. From dragon boating to trying out the plenty of
-							restaurants in the city (Pho Pasteur and Piattini have our hearts), it was fun to live in a new city.
-							Special shoutout to the Futureforce Recruitment Team for planning an amazing summer, GovSRE for their
-							mentorship, and the Boston-Burlington-Cambridge Intern for all of the memories both in and outside of the
-							office.
-
+							- Site Reliability Engineering Intern for Salesforce's
+							Government Cloud and Futureforce Campus Ambassador at Cornell </br>
+							- Automated monitoring during periods of increased traffic by
+							scraping our internal Monitoring Clouds and sending updates to
+							engineers at both regularly scheduled intervals and critical
+							levels using Python and Slack's API </br>
+							- Collaborated with Service Owners to go through over one hundred
+							Work Items in order to prepare runbooks for audits by ensuring
+							up to date contacts and clear procedures that the SRE team could take </br>
+							- Design workflow process in order to assist team with tickets in the
+							queue by contacting ticket owner and closing them out automatically
+							if no action has been taken by them
 							<a href="https://www.linkedin.com/pulse/day-life-salesforce-intern-winston-liu/" class="link">
-								You can read more about my day to day in this LinkedIn Blog that I wrote during my internship.
+								- Read more about experience in this LinkedIn Blog that I wrote during my internship
+								as part of Futureforce's Social Squad!
 							</a>
+							</br> - Returning to this team in August of 2023. Stay tuned to
+							learn more about my projects as a Full Time Employee!
 						</h4>
 
 					</div>
@@ -81,124 +73,6 @@
 						</div>
 					</div>
 				</div>
-
-				</br>
-				</br>
-
-				<div class="flex flex-2">
-					<div class="col col2">
-						<h2>MLB Project</h2>
-						<h4>
-							In my Data Science course, my team of three students had to analyze
-							a dataset that we found interesting. We decided to focus on the MLB because of
-							our interest in sports and sabermetrics after reading "Moneyball." Together,
-							we were responsible for coming up with three separate questions that related
-							to the salary of a professional pitcher. Because of my prior experience as
-							a PM, I took on the responsibility of getting our team organized by
-							maintaing a Kanban Board to keep track of our distribution of work and
-							progress to ensure that all tasks were completed by the end of each
-							milestone. Furthermore, I was able to identify sources containing
-							data from the 2021 MLB season and combine all of them to create a
-							"master" data frame in which we can perform our analysis on. This
-							was an exciting project to work on because of the analysis techniques
-							I've learned from in this class. My previous work would just require
-							me to clean the data and create visualizations in which I drew
-							conclusions from. But here, we have learned about machine learning
-							techniques such as linear and logistical regression. So, I was able
-							to fit a logistic regression model using statsmodels that had a
-							82.65% accuracy rate on whether a given pitcher would make above
-							or below the salary median. Additionally, I was able to implement
-							a random walk optimization code that found a best performing team
-							given a custom metric and constraint of salary. Doing this project
-							made me realize why ML is such a trending field as there is so much
-							predictive information that can be generated from past data. I think
-							these analytics techniques are super intriguing and I am interested
-							in learning more as well as taking more projects where I can apply
-							these skills.
-						</h4>
-
-					</div>
-					<div class="col col1 first">
-						<div class="image thumb1">
-							<a href="https://drive.google.com/file/d/1r_b1Gon3xDgJLi1_SV_rlFAes13s42Aw/view?usp=sharing"
-								class="link"><img src="image/mlb.png" alt="" /></a>
-						</div>
-					</div>
-				</div>
-
-				</br>
-				</br>
-
-				<div class="flex flex-2">
-					<div class="col col2">
-						<h2>Watercooler Project</h2>
-						<h4>
-							This was a project I helped a Cornell Policy Analysis Management
-							PhD Candidate on during the Fall 2021 semester. The goal here was
-							to understand more about how involuntary layoff events affected
-							different parties. More specifically, how do the laid off workers
-							express their sentiments online or what were some financial factors
-							that these publicly traded companies were facing at the time. To help
-							give some more context to this problem, I was responsible for the following
-							technical tasks. First, I had to identify possible sources to extract
-							data from. After doing some research and evaluating my options, I decided
-							to choose Ravenpack because this was the most extensive and structured.
-							So, I wrote code in Python that made API calls to their servers which
-							extracted data from digital newspapers. The second part was after pulling
-							the data and having previous scraped data, I needed to combine them
-							to prepare them for analysis. Having learned how to use dplyr in my
-							PAM course, I used that package to clean over 50,000 rows of data
-							(more than any amount I have done so far)! Lastly, I used ggplot
-							to do some exploratory plots in order to idenitfy possible trends
-							and correlations and presented them to the principal investigator.
-						</h4>
-
-					</div>
-					<div class="col col1 first">
-						<div class="image thumb1">
-							<a href="http://sdl.soc.cornell.edu" class="link"><img src="image/sdl.png" alt="" /></a>
-						</div>
-					</div>
-				</div>
-
-				</br>
-				</br>
-
-				<div class="flex flex-2">
-					<div class="col col2">
-						<h2>Trifecta of Social Justice, Engineering, and Communication</h2>
-						<h4>
-							Being an engineer, I realize that we have great power in our hands.
-							A civil engineer has design choices to make over infrastructure which
-							millions of people depend on. A chemical engineer can develop medicine, but
-							they need to run tests to ensure it is safe for human consumption. However,
-							this made me think how software engineers and computer scientists are responsible
-							for creating products that impact people. Personally, I believe that it is
-							essential for individuals use their talents for good, which is why I decided
-							to do a deep dive into the code of ethics for some companies to see how they
-							are protecting their users as they scale. Additionally, I was curious to learn
-							how their day to day operations would tie in to the mission statements that
-							they had before the "tech boom." From this research project, I learned that
-							engineering is anything but "objective." There is no such thing as the right way
-							to do things as we are faced with tradeoffs every day. In fact many design patterns
-							we see can be judgement calls influenced by previous experiences. We also have
-							the responsiblity to think about how accessible our product is as software engineers
-							should constantly be reminded about inclusivity rather than finding a quick patch
-							to a problem. This made me realize that this indeed is a tough challenge to solve
-							as the industry expands, but the integrity of "doing the right thing" is a
-							trait that industry leaders can't lose sight over.
-						</h4>
-
-					</div>
-					<div class="col col1 first">
-						<div class="image thumb1">
-							<a href="
-							https://drive.google.com/file/d/1vLHGMVK3GfKO7tXfyy1PpPLrh6astCfl/view?usp=sharing" class="link"><img
-									src="image/ethics.png" alt="" /></a>
-						</div>
-					</div>
-				</div>
-
 
 				</br>
 				</br>
@@ -224,94 +98,22 @@
 				</div>
 
 				<h4>
-					In summer of 2021, I worked as a Program Management Intern at a startup called
-					BrightInsight. I wanted to explore a career path as a PM because from my previous
-					experience at Cornell, I've enjoyed planning the roadmaps for projects. During this
-					internship, I was able to lead the Data Engineering Team which consisted of 17 engineers
-					as their Scrum Master by leading daily sprint standups to document project status, mitigate risk, and resolve
-					dependencies all on a Jira Board! When not in meetings, I was also responsible for creating
-					and maintaing project timelines for two microservices which required talking to various
-					stakeholders in order to understand scope and specifications as well as delivering projects
-					to our customers on time. Lastly, because of my engineering background, my manager gave
-					a more analytical project as part of the PMO's key performance indicator to improve the
-					time that our code can be shipped out. To do this, I had to write formulas within EazyBI
-					and create visualizations using Jellyfish to present to senior management by showing how
-					the team spends a long time on debugging during the sprint. Therefore, this can be attributed
-					to poor code and design from the past which causes many dependencies or during the development
-					process, the team isn't doing a strong enough job of getting tasks organized. It was quite interesting
-					to me because this shows how businesses are increasingly relying on the use of data to drive decisions.
-					From this internship, I was able to learn more about how Scrum and Agile processes are used
-					in a real world setting. However, the most important thing I took away was that my interest
-					is geared towards analytics and being able to clean up data to create visualizations and
-					tell stories to relevant stakeholders to help improve processes.
+
+					- Program Management Intern for a digital health startup called
+					BrightInsight that was ranked #13 on LinkedIn's Top Startup List </br>
+					- Scrum Master for the Data Engineering Team which consisted of
+					17 engineers and led daily sprint standups </br>
+					- Utilized Jira and Confluence to note project status, risks,
+					and create project documentations to increase visibility across
+					the company </br>
+					- Worked with stakeholders to create and maintain project timelines
+					for two microservices using SmartSheet as part of the Engineering
+					department's KPI to deliver projects on time for customers </br>
+					- Created formulas within EazyBI in Jira as well as visualizations
+					in Jellyfish to emphasize to senior management the team's issue of
+					not being able to solve bugs within a reasonable time compared to
+					others in the organization
 				</h4>
-
-				</br>
-
-				<div class="flex flex-2">
-					<div class="col col2">
-						<h2>Blackjack - CS3110 Final Project</h2>
-						<h4>
-							My partner and I developed a game of Blackjack from scratch in OCaml
-							for the final project in our functional programming course. We chose
-							to make this game because we wanted to create something that helped
-							us pass time during the pandemic. This project was a valuable experience,
-							not only because did it help me learn OCaml better, but it allowed me
-							to work through the full Software Development Lifecycle. We used a Trello
-							Board to help us keep track of tasks that had to be done, which helped
-							us immensely during the planning stage since it enabled us to develop
-							the game iteratively by thinking about the core functionalities. After
-							implementing and testing it, we had to structure our code to ensure that
-							it can be incorporated into later parts seamlessly. Upon completition
-							of our game, we were able to create a Blackjack engine that could be
-							played in one's terminal using a REPL format. Furthermore, our game
-							enabled multiple levels of a CPU multi-player as well as the ability
-							to bet. When we were making this game, this was the longest program
-							I have written and I had some takeaways from this experience. First,
-							to ensure that we are making programs of value, it is important to
-							talk to stakeholders so we can get their feedback and improve our code.
-							Second, writing logical/readable code and having comments when working with
-							a team will greatly speed up the debugging process by helping others understand.
-							Lastly, don't underestimate the planning stage as doing a good job will simplify
-							control flow leading to more straight forward code which is what we should strive for.
-						</h4>
-
-					</div>
-					<div class="col col1 first">
-						<div class="image thumb1">
-							<a href="https://github.com/winstonliu01/CS3110-FinalProject" class="link"><img src="image/ocaml.jpeg"
-									alt="" /></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="flex flex-2">
-					<div class="col col2">
-						<h2>Housing Inequality - PAM2070 Policy Brief</h2>
-						<h4>
-							I took this course because I was curious about what a career would
-							be like as a data scientist. Not having heard much of Policy Analysis Management
-							before, I was intrigued to see how this field would overlap with a more technical
-							discipline. Here, I was first introduced to R and the tidyverse package.
-							For our final project, we had to write a policy brief to address a policy
-							problem that was discussed in the course. I chose to write about housing
-							inequality in Nassau County where I am from. To lobby the use of housing vouchers
-							to increase the intergenerational mobility for children, I cleaned five datasets
-							totaling over 6000 rows and used ggplot to create visualizations. These visualizations
-							helped to contextualize the problem by indicating where Nassau County stood on a variety
-							of factors and which locations within this county needed the most support in order to
-							deter their children from unlawful activities.
-						</h4>
-
-					</div>
-					<div class="col col1 first">
-						<div class="image thumb1">
-							<a href="https://drive.google.com/file/d/1UHvilViWQ3uipM0HhPqxGKcefACvNeUC/view?usp=sharing"
-								class="link"><img src="image/pam.jpeg" alt="" /></a>
-						</div>
-					</div>
-				</div>
-			</div>
 
 		</section>
 	</div>
@@ -322,7 +124,7 @@
 	<footer id="footer">
 		<div class="copyright">
 			<p>Design used from: <a href="https://templated.co">TEMPLATED</a>.</p>
-			<p>Last updated: August 22, 2022</p>
+			<p>Last updated: July 26, 2023</p>
 		</div>
 	</footer>
 
